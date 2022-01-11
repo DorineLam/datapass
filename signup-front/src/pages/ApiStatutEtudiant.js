@@ -70,27 +70,23 @@ export const CadreJuridiqueDescription = () => (
 
 export const availableScopes = [
   {
-    value: 'identifiant_national_etudiant',
+    value: 'mesri_identifiant',
     label: 'INE (Identifiant National Etudiant)',
   },
   {
-    value: 'identite_etudiant',
-    label: 'Identité',
-  },
-  {
-    value: 'inscription_formation_initiale',
+    value: 'mesri_inscription_etudiant',
     label: 'Inscriptions en formation initiale',
   },
   {
-    value: 'inscription_formation_continue',
+    value: 'mesri_inscription_autre',
     label: 'Inscriptions en formation continue)',
   },
   {
-    value: 'admissions_etudiant',
+    value: 'mesri_admission',
     label: 'Admissions',
   },
   {
-    value: 'etablissements_etudiant',
+    value: 'mesri_etablissements',
     label: 'Etablissements',
   },
 ];
