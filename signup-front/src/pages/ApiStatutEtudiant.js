@@ -79,7 +79,7 @@ export const availableScopes = [
   },
   {
     value: 'mesri_inscription_autre',
-    label: 'Inscriptions en formation continue)',
+    label: 'Inscriptions en formation continue',
   },
   {
     value: 'mesri_admission',
